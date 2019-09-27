@@ -28,13 +28,8 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>backend</Name>
-			<Synonym>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Backend</v8:content>
-				</v8:item>
-			</Synonym>
+			<Name>Конфигурация</Name>
+			<Synonym/>
 			<Comment/>
 			<NamePrefix/>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_14</ConfigurationExtensionCompatibilityMode>
@@ -138,6 +133,21 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Инициатива</Subsystem>
+			<Subsystem>Опрос</Subsystem>
+			<Subsystem>Отчеты</Subsystem>
+			<Subsystem>НСИ</Subsystem>
+			<HTTPService>Сервер</HTTPService>
+			<Catalog>Инициатива</Catalog>
+			<Catalog>Вопросы</Catalog>
+			<Catalog>Пользователь</Catalog>
+			<Catalog>Ответы</Catalog>
+			<Document>Опрос</Document>
+			<Enum>ЮрФизЛицо</Enum>
+			<Enum>ТипВопроса</Enum>
+			<DataProcessor>ВыгрузитьСписокИнициатив</DataProcessor>
+			<InformationRegister>РейтингИнициатив</InformationRegister>
+			<InformationRegister>ОтветыНаВопросы</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

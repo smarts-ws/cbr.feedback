@@ -1,7 +1,73 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.8">
 	<ConfigVersions>
-		<Metadata name="Configuration.backend" id="d0f47946-b874-40c0-892b-5e68c283ce18" configVersion="0026d6b02868e747ba3e38d7dbd42ccf00000000"/>
+		<Metadata name="Catalog.Вопросы" id="ae3e3055-264c-4644-bdd4-98da38a784ba" configVersion="711f3e518e884649a4f99014f64cadd600000000">
+			<Metadata name="Catalog.Вопросы.Attribute.РасшифровкаВопроса" id="1c632b2e-2d67-4dc5-937e-a039bd0296a6"/>
+			<Metadata name="Catalog.Вопросы.TabularSection.Ответы" id="2a30c2b8-9c2a-46ec-8e46-2e8d5599db6b"/>
+			<Metadata name="Catalog.Вопросы.TabularSection.Ответы.Attribute.Ответ" id="939c78c6-f0ee-4fe6-a33b-1a81cf3beb5e"/>
+		</Metadata>
+		<Metadata name="Catalog.Вопросы.Form.ФормаЭлемента" id="a7a9f74f-bedf-445b-a784-f1070288ce88" configVersion="8f580531fa2678459f85c2d26d79ee1100000000"/>
+		<Metadata name="Catalog.Вопросы.Form.ФормаЭлемента.Form" id="a7a9f74f-bedf-445b-a784-f1070288ce88.0" configVersion="56cad08fb1262644a5eb2fb2876083c300000000"/>
+		<Metadata name="Catalog.Инициатива" id="d39b8b10-daa0-4ea8-b8a1-98820891ca59" configVersion="eafd235c1ba14148b1d62c713d7ba7e200000000">
+			<Metadata name="Catalog.Инициатива.Attribute.ДоступностьЮрЛицам" id="0b6a0dc1-12cc-4d5d-a7f3-7af85d51f1f3"/>
+			<Metadata name="Catalog.Инициатива.Attribute.СрокДо" id="118b7005-7ce9-4f8d-a4dd-a57a7c17b690"/>
+			<Metadata name="Catalog.Инициатива.Attribute.Содержание" id="1af60bfc-d39a-448d-a7bc-86e3f629e25e"/>
+			<Metadata name="Catalog.Инициатива.Attribute.ДоступностьФизЛицам" id="74d3e03c-cd26-4bc4-9cb0-0ed2a53b628f"/>
+		</Metadata>
+		<Metadata name="Catalog.Инициатива.Form.ФормаЭлемента" id="a54c9632-d2a9-4a7b-9577-4fe08c49e15e" configVersion="95c2c0d1b588c5468b4563a6fda9ecb500000000"/>
+		<Metadata name="Catalog.Инициатива.Form.ФормаЭлемента.Form" id="a54c9632-d2a9-4a7b-9577-4fe08c49e15e.0" configVersion="a3b5dd457a1c3947a50d2a6516c65b1800000000"/>
+		<Metadata name="Catalog.Ответы" id="901df88e-5ee9-49aa-b60a-f2fcbf87b570" configVersion="3161659a2f1acb4a86676652a0ce876300000000"/>
+		<Metadata name="Catalog.Пользователь" id="4b81939e-239f-44f4-8142-7a4c47bde680" configVersion="04192e4d044aa34582b44e1c90ad1a7000000000">
+			<Metadata name="Catalog.Пользователь.Attribute.ЮрФизЛицо" id="05c229dd-ad07-4714-bb7d-0bb6d440af2b"/>
+			<Metadata name="Catalog.Пользователь.Attribute.Логин" id="7f3bee84-cd75-4757-8535-45e7a021b7f1"/>
+			<Metadata name="Catalog.Пользователь.Attribute.Пароль" id="eb0217d3-7fc1-4eef-9029-5997aee92b94"/>
+			<Metadata name="Catalog.Пользователь.Attribute.МобильныйТелефон" id="f9faec7c-8c3f-402f-a8a8-d755b26e46e8"/>
+		</Metadata>
+		<Metadata name="Catalog.Пользователь.Form.ФормаЭлемента" id="d0a95f1c-9d79-40af-805c-217b43335ba0" configVersion="ff25890a2d45d0418853039363312d0900000000"/>
+		<Metadata name="Catalog.Пользователь.Form.ФормаЭлемента.Form" id="d0a95f1c-9d79-40af-805c-217b43335ba0.0" configVersion="66b79abfaa24e34f92a3f7373125b05e00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="d0f47946-b874-40c0-892b-5e68c283ce18" configVersion="236a1dce3336de408281908b346aaff500000000"/>
+		<Metadata name="Configuration.Конфигурация.CommandInterface" id="8733be39-539d-4c35-9c3f-761b92679d1c.a" configVersion="0aed0edf154c174cb43ceabd8ece70ff00000000"/>
+		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="8733be39-539d-4c35-9c3f-761b92679d1c.8" configVersion="be59f90f1f639042993af36a1d05681d00000000"/>
+		<Metadata name="DataProcessor.ВыгрузитьСписокИнициатив" id="c8eee25b-c68b-41fc-ad18-23c49b2be438" configVersion="669f3b2b76ee6643a1b6674bc70b3a4c00000000"/>
+		<Metadata name="DataProcessor.ВыгрузитьСписокИнициатив.ObjectModule" id="c8eee25b-c68b-41fc-ad18-23c49b2be438.0" configVersion="091ccc99bcbefb40a5d31c183fd1e88400000000"/>
+		<Metadata name="Document.Опрос" id="3e74f795-4009-4e11-bf99-44070bfc185a" configVersion="b2dff42d1412cc478be68e5e9e0645ba00000000">
+			<Metadata name="Document.Опрос.Attribute.Инициатива" id="42a7f0c6-2d67-4c66-8d9e-bb7a65b2fae8"/>
+			<Metadata name="Document.Опрос.TabularSection.Вопросы" id="a05716f4-252a-48cb-8986-d43272257f14"/>
+			<Metadata name="Document.Опрос.Attribute.ЮрЛицо" id="c601fcdf-6b73-40a2-9842-d2d1febd1a24"/>
+			<Metadata name="Document.Опрос.TabularSection.Вопросы.Attribute.Вопрос" id="e1f1706e-f7cc-4ac2-b4a7-89f0649eb425"/>
+			<Metadata name="Document.Опрос.Attribute.ФизЛицо" id="f9f72f68-67ae-4685-9995-4e212a43da38"/>
+		</Metadata>
+		<Metadata name="Document.Опрос.Form.ФормаДокумента" id="0ce6ce00-0051-4644-ac20-12ad32e4e614" configVersion="3006830f47696c409fe875ba6f0b1fd200000000"/>
+		<Metadata name="Document.Опрос.Form.ФормаДокумента.Form" id="0ce6ce00-0051-4644-ac20-12ad32e4e614.0" configVersion="b21c858e5968ed458fa26de1fd9feeb900000000"/>
+		<Metadata name="Document.Опрос.Form.ФормаСписка" id="6e4077ce-b535-45bd-b57d-80041f28ee76" configVersion="46b134615318a243a465726914f85e6000000000"/>
+		<Metadata name="Document.Опрос.Form.ФормаСписка.Form" id="6e4077ce-b535-45bd-b57d-80041f28ee76.0" configVersion="856f37401734174abb9398d17fedc18900000000"/>
+		<Metadata name="Enum.ТипВопроса" id="9dd4c118-10ba-41ce-b579-c422c4114830" configVersion="12af9acf376cf14bbbcd8d67f7518f5900000000"/>
+		<Metadata name="Enum.ЮрФизЛицо" id="2f27c63c-9c10-4b8c-8b17-31c9355720f1" configVersion="5ab077bd8cc66447ab076ea6f0042e7400000000">
+			<Metadata name="Enum.ЮрФизЛицо.EnumValue.ЮрЛицо" id="6bc4e0f5-62f0-4ea7-9235-ac3749a95382"/>
+			<Metadata name="Enum.ЮрФизЛицо.EnumValue.ФизЛицо" id="8e19c33c-2c4d-4fec-805e-f321e921e0ee"/>
+		</Metadata>
+		<Metadata name="HTTPService.Сервер" id="130dc6ac-fe94-4af3-8378-3e2e97b669dd" configVersion="f15fde1b73477d4f889143fe2913cd3c00000000">
+			<Metadata name="HTTPService.Сервер.URLTemplate.ВыгрузитьСписокИнициатив" id="84df009a-4dd3-4ba6-8d15-00db5627e2bb"/>
+			<Metadata name="HTTPService.Сервер.URLTemplate.ВыгрузитьСписокИнициатив.Method.ВыгрузитьСписокИнициатив" id="9afc6a4b-48b8-4e3d-a242-dd5832e15bb6"/>
+		</Metadata>
+		<Metadata name="HTTPService.Сервер.Module" id="130dc6ac-fe94-4af3-8378-3e2e97b669dd.0" configVersion="24b4ce6fcb6b0a47beeabf8e842f4ec800000000"/>
+		<Metadata name="InformationRegister.ОтветыНаВопросы" id="4386f15f-7a36-4e98-8ad4-98e2d861611a" configVersion="7609e83c072db946b8dcbb6d8f16156800000000">
+			<Metadata name="InformationRegister.ОтветыНаВопросы.Dimension.Инициатива" id="1c06046d-45bd-4091-ab0c-bd22d81313c7"/>
+			<Metadata name="InformationRegister.ОтветыНаВопросы.Dimension.Вопросы" id="425626fe-84a2-4766-b30f-4378c943919f"/>
+			<Metadata name="InformationRegister.ОтветыНаВопросы.Resource.Ответ" id="c3f9afad-739e-4379-8aaf-2312bbed1a83"/>
+			<Metadata name="InformationRegister.ОтветыНаВопросы.Dimension.Пользователь" id="d8f9cd57-fb35-4ca3-a650-07b29406d7a5"/>
+		</Metadata>
+		<Metadata name="InformationRegister.РейтингИнициатив" id="08d3d355-2321-45c5-b275-0aa51716ad5b" configVersion="de459a0a625c9e4c87ae02f1f2efd15600000000">
+			<Metadata name="InformationRegister.РейтингИнициатив.Resource.ОценкаДизЛайк" id="484aad0d-0be8-4d09-a484-9182ec932981"/>
+			<Metadata name="InformationRegister.РейтингИнициатив.Resource.ОценкаЛайк" id="b0ead9d3-daf4-42e5-978c-165423efe2ca"/>
+			<Metadata name="InformationRegister.РейтингИнициатив.Dimension.Инициатива" id="de428db2-d534-4875-8b6f-f37c133a463d"/>
+			<Metadata name="InformationRegister.РейтингИнициатив.Dimension.Пользователь" id="f7aed763-4a20-413f-8559-9c6f44781a8f"/>
+		</Metadata>
 		<Metadata name="Language.Русский" id="624c9544-a56d-42b0-a18b-ab21d8989819" configVersion="9f19aa7b43fc4a428d2c4022051f518100000000"/>
+		<Metadata name="Subsystem.Инициатива" id="3eee7d24-d35e-468c-ba7e-cabf9519a889" configVersion="a47358a85a72b4498fbb5e7bbf6a9d2300000000"/>
+		<Metadata name="Subsystem.НСИ" id="3b944f53-7e49-4728-9628-f613b64e8f4e" configVersion="3346613fd94d1d4b9ac534f45d2d018600000000"/>
+		<Metadata name="Subsystem.Опрос" id="2c8b593c-6a57-4746-9151-7149243cb0f0" configVersion="42cc2ab70dbcc642954bd8d4053e42d800000000"/>
+		<Metadata name="Subsystem.Опрос.CommandInterface" id="2c8b593c-6a57-4746-9151-7149243cb0f0.1" configVersion="6d9dbe32d1c4cb40ad6be57e2717eba200000000"/>
+		<Metadata name="Subsystem.Отчеты" id="e8a8c38b-319b-415d-8b83-03ed2546b589" configVersion="e549808a77496543b8b62834f9ffffba00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
