@@ -34,6 +34,11 @@
 			<ContextMenu name="РасшифровкаВопросаКонтекстноеМеню" id="27"/>
 			<ExtendedTooltip name="РасшифровкаВопросаРасширеннаяПодсказка" id="28"/>
 		</InputField>
+		<InputField name="ТипВопроса" id="29">
+			<DataPath>Объект.ТипВопроса</DataPath>
+			<ContextMenu name="ТипВопросаКонтекстноеМеню" id="30"/>
+			<ExtendedTooltip name="ТипВопросаРасширеннаяПодсказка" id="31"/>
+		</InputField>
 		<Table name="Ответы" id="7">
 			<Representation>List</Representation>
 			<AutoInsertNewRow>true</AutoInsertNewRow>

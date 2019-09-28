@@ -91,6 +91,91 @@
 			<Explanation/>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<EnumValue uuid="f5d4d0b4-7b8f-4162-ac2d-f330e7a13813">
+				<Properties>
+					<Name>ТекстСтрока</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Текст строка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="11c83fdc-ea01-4d38-bb9d-096d6f41bfb0">
+				<Properties>
+					<Name>ОдинИзСписка</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Один из списка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="190adb03-c41a-4be4-ac67-4300237761c6">
+				<Properties>
+					<Name>НесколькоИзСписка</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Несколько из списка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8e4efaa3-4ce2-47b9-9f10-b105a2f62400">
+				<Properties>
+					<Name>ЗагрузкаФайлов</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Загрузка файлов</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bf1daa9b-4250-40f5-9d91-55780f7e5775">
+				<Properties>
+					<Name>Шкала</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Шкала</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8c968ae1-2740-4425-8c6c-b5b12c24b007">
+				<Properties>
+					<Name>СеткаМножественныйВыбор</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сетка множественный выбор</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="faab21fe-a853-4bd1-978c-458f98aad791">
+				<Properties>
+					<Name>СеткаФлажков</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сетка флажков</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
 	</Enum>
 </MetaDataObject>

@@ -25,7 +25,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/*</Template>
+					<Template>/spisok/{Login}</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="9afc6a4b-48b8-4e3d-a242-dd5832e15bb6">
@@ -40,6 +40,93 @@
 							<Comment/>
 							<HTTPMethod>GET</HTTPMethod>
 							<Handler>ВыгрузитьСписокИнициативВыгрузитьСписокИнициатив</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="d5fc353a-e0ab-4fbc-b9e7-b47d8f89033d">
+				<Properties>
+					<Name>ВыгрузитьИнициативу</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузить инициативу</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/initiative/{Login}/{Guid}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="ca1f0e58-0f45-47e6-a512-94aa3897e3ae">
+						<Properties>
+							<Name>ВыгрузитьИнициативу</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выгрузить инициативу</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ВыгрузитьИнициативу</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="4e8dd6af-dfb5-4a3f-a5c0-3d361c3de6ab">
+				<Properties>
+					<Name>ВыгрузитьОпросы</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузить опросы</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/opros/{Login}/{Guid}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="1f658c15-8e90-465e-b0fb-7f5e349a3c81">
+						<Properties>
+							<Name>ВыгрузитьОпросы</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выгрузить опросы</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ВыгрузитьОпросы</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="bf99e5fd-2e32-4b23-a54f-1f5bb888dd68">
+				<Properties>
+					<Name>ПолучитьОценкуИнициативы</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Получить оценку инициативы</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/postlike/{Login}/{Guid}/{Like}/{Dislike}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="5ceaab8d-23c9-49d9-b55c-f98b83d5c066">
+						<Properties>
+							<Name>ПолучитьОценкуИнициативы</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Получить оценку инициативы</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ПолучитьОценкуИнициативыПолучитьОценкуИнициативы</Handler>
 						</Properties>
 					</Method>
 				</ChildObjects>

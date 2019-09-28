@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Рейтинг" id="16">
+			<DataPath>Рейтинг</DataPath>
+			<ContextMenu name="РейтингКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="РейтингРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="Никнэйм" id="10">
+			<DataPath>Никнэйм</DataPath>
+			<ContextMenu name="НикнэймКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="НикнэймРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Пользователь" id="13">
+			<DataPath>Пользователь</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Логин</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ПользовательКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ПользовательРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="Телефон" id="21">
+			<DataPath>Телефон</DataPath>
+			<ContextMenu name="ТелефонКонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="ТелефонРасширеннаяПодсказка" id="23"/>
+		</InputField>
+		<InputField name="НазваниеОрганизации" id="7">
+			<DataPath>НазваниеОрганизации</DataPath>
+			<ContextMenu name="НазваниеОрганизацииКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="НазваниеОрганизацииРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ИНН" id="1">
+			<DataPath>ИНН</DataPath>
+			<ContextMenu name="ИННКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ИННРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="КПП" id="4">
+			<DataPath>КПП</DataPath>
+			<ContextMenu name="КППКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="КППРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<Button name="СохранитьИзменения" id="19">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.СохранитьИзменения</CommandName>
+			<ExtendedTooltip name="СохранитьИзмененияРасширеннаяПодсказка" id="20"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Пользователь" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пользователь</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Никнэйм" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Никнэйм</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Рейтинг" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рейтинг</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИНН" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ИНН</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КПП" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>КПП</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="НазваниеОрганизации" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Название организации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ФизЛицо" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физ лицо</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Телефон" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Телефон</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СохранитьИзменения" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить изменения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить изменения</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+	</Commands>
+</Form>

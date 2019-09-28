@@ -146,6 +146,7 @@
 			<Enum>ЮрФизЛицо</Enum>
 			<Enum>ТипВопроса</Enum>
 			<DataProcessor>ВыгрузитьСписокИнициатив</DataProcessor>
+			<DataProcessor>Обработка1</DataProcessor>
 			<InformationRegister>РейтингИнициатив</InformationRegister>
 			<InformationRegister>ОтветыНаВопросы</InformationRegister>
 		</ChildObjects>
