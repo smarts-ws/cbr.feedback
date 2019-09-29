@@ -7,6 +7,17 @@
 	<ChildItems>
 		<InputField name="Рейтинг" id="16">
 			<DataPath>Рейтинг</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оставляйте свое мнение по инициативам и получайте бонусы. В Филин действует система рейтингов:
+Новичок;
+Среднячок;
+Диванный эксперт.</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ToolTipRepresentation>Button</ToolTipRepresentation>
 			<ContextMenu name="РейтингКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="РейтингРасширеннаяПодсказка" id="18"/>
 		</InputField>
@@ -48,6 +59,7 @@
 		</InputField>
 		<Button name="СохранитьИзменения" id="19">
 			<Type>UsualButton</Type>
+			<Visible>false</Visible>
 			<CommandName>Form.Command.СохранитьИзменения</CommandName>
 			<ExtendedTooltip name="СохранитьИзмененияРасширеннаяПодсказка" id="20"/>
 		</Button>

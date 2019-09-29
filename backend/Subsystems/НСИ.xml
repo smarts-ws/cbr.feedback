@@ -21,6 +21,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Ответы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ВыгрузитьСписокИнициатив</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.Сервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РейтингПользователей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Обработка2</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

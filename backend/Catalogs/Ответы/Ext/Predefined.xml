@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.8">
+	<Item id="71118aba-e683-4cbd-be1f-becefbae973b">
+		<Name>Булево</Name>
+		<Code>000000003</Code>
+		<Description>Булево</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="931b7f14-8dc9-4f43-bd62-e806503ee02c">
+		<Name>Дата</Name>
+		<Code>000000004</Code>
+		<Description>Дата</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d6a47e9a-31dc-46fa-b72c-522f0418dd58">
+		<Name>Строка</Name>
+		<Code>000000002</Code>
+		<Description>Строка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0142efe1-d6c5-4fb4-b065-e09ad2aabea1">
+		<Name>Текст</Name>
+		<Code>000000001</Code>
+		<Description>Текст</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d061ad99-29ff-4f50-9a3f-dd0331d01ac8">
+		<Name>Число</Name>
+		<Code>000000005</Code>
+		<Description>Число</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

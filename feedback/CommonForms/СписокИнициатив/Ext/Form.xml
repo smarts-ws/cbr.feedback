@@ -22,6 +22,24 @@
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
 			<DataPath>СписокИнициатив</DataPath>
+			<CommandSet>
+				<ExcludedCommand>Add</ExcludedCommand>
+				<ExcludedCommand>CancelSearch</ExcludedCommand>
+				<ExcludedCommand>Change</ExcludedCommand>
+				<ExcludedCommand>Copy</ExcludedCommand>
+				<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+				<ExcludedCommand>Delete</ExcludedCommand>
+				<ExcludedCommand>EndEdit</ExcludedCommand>
+				<ExcludedCommand>Find</ExcludedCommand>
+				<ExcludedCommand>MoveDown</ExcludedCommand>
+				<ExcludedCommand>MoveUp</ExcludedCommand>
+				<ExcludedCommand>OutputList</ExcludedCommand>
+				<ExcludedCommand>SelectAll</ExcludedCommand>
+				<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+				<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+				<ExcludedCommand>SortListAsc</ExcludedCommand>
+				<ExcludedCommand>SortListDesc</ExcludedCommand>
+			</CommandSet>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="СписокИнициативКонтекстноеМеню" id="2"/>
 			<AutoCommandBar name="СписокИнициативКоманднаяПанель" id="3"/>
@@ -54,38 +72,69 @@
 				<Event name="Selection">СписокИнициативВыбор</Event>
 			</Events>
 			<ChildItems>
-				<InputField name="СписокИнициативИнициатива" id="14">
-					<DataPath>СписокИнициатив.Инициатива</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="СписокИнициативИнициативаКонтекстноеМеню" id="15"/>
-					<ExtendedTooltip name="СписокИнициативИнициативаРасширеннаяПодсказка" id="16"/>
-				</InputField>
-				<InputField name="СписокИнициативСрокДо" id="32">
-					<DataPath>СписокИнициатив.СрокДо</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="СписокИнициативСрокДоКонтекстноеМеню" id="33"/>
-					<ExtendedTooltip name="СписокИнициативСрокДоРасширеннаяПодсказка" id="34"/>
-				</InputField>
-				<InputField name="СписокИнициативЛайки" id="23">
-					<DataPath>СписокИнициатив.Лайки</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<TextColor>#008000</TextColor>
-					<ContextMenu name="СписокИнициативЛайкиКонтекстноеМеню" id="24"/>
-					<ExtendedTooltip name="СписокИнициативЛайкиРасширеннаяПодсказка" id="25"/>
-				</InputField>
+				<ColumnGroup name="СписокИнициативГруппа2" id="40">
+					<ExtendedTooltip name="СписокИнициативГруппа2РасширеннаяПодсказка" id="41"/>
+					<ChildItems>
+						<InputField name="СписокИнициативИнициатива" id="14">
+							<DataPath>СписокИнициатив.Инициатива</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoCellHeight>true</AutoCellHeight>
+							<MultiLine>true</MultiLine>
+							<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<ContextMenu name="СписокИнициативИнициативаКонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="СписокИнициативИнициативаРасширеннаяПодсказка" id="16"/>
+						</InputField>
+						<ColumnGroup name="СписокИнициативГруппа1" id="38">
+							<Visible>false</Visible>
+							<Group>Horizontal</Group>
+							<ExtendedTooltip name="СписокИнициативГруппа1РасширеннаяПодсказка" id="39"/>
+							<ChildItems>
+								<InputField name="СписокИнициативСрокДо" id="32">
+									<DataPath>СписокИнициатив.СрокДо</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокИнициативСрокДоКонтекстноеМеню" id="33"/>
+									<ExtendedTooltip name="СписокИнициативСрокДоРасширеннаяПодсказка" id="34"/>
+								</InputField>
+								<InputField name="СписокИнициативЛайки" id="23">
+									<DataPath>СписокИнициатив.Лайки</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Лайки</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Top</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<TextColor>#008000</TextColor>
+									<ContextMenu name="СписокИнициативЛайкиКонтекстноеМеню" id="24"/>
+									<ExtendedTooltip name="СписокИнициативЛайкиРасширеннаяПодсказка" id="25"/>
+								</InputField>
+								<InputField name="СписокИнициативДизлайки" id="26">
+									<DataPath>СписокИнициатив.Дизлайки</DataPath>
+									<Visible>false</Visible>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дизлайки</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Top</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<TextColor>style:SpecialTextColor</TextColor>
+									<ContextMenu name="СписокИнициативДизлайкиКонтекстноеМеню" id="27"/>
+									<ExtendedTooltip name="СписокИнициативДизлайкиРасширеннаяПодсказка" id="28"/>
+								</InputField>
+							</ChildItems>
+						</ColumnGroup>
+					</ChildItems>
+				</ColumnGroup>
 				<InputField name="СписокИнициативГУИД" id="35">
 					<DataPath>СписокИнициатив.ГУИД</DataPath>
 					<Visible>false</Visible>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="СписокИнициативГУИДКонтекстноеМеню" id="36"/>
 					<ExtendedTooltip name="СписокИнициативГУИДРасширеннаяПодсказка" id="37"/>
-				</InputField>
-				<InputField name="СписокИнициативДизлайки" id="26">
-					<DataPath>СписокИнициатив.Дизлайки</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<TextColor>style:SpecialTextColor</TextColor>
-					<ContextMenu name="СписокИнициативДизлайкиКонтекстноеМеню" id="27"/>
-					<ExtendedTooltip name="СписокИнициативДизлайкиРасширеннаяПодсказка" id="28"/>
 				</InputField>
 			</ChildItems>
 		</Table>

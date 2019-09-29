@@ -131,6 +131,64 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="7f24eb79-8f01-4396-87dd-3b5a2b555416">
+				<Properties>
+					<Name>ПолучитьРейтингПользователя</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Получить рейтинг пользователя</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/rang/{Login}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="8d0a606d-a5a6-4f36-a770-c559dd841e08">
+						<Properties>
+							<Name>ПолучитьРейтингПользователя</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Получить рейтинг пользователя</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ПолучитьРейтингПользователяПолучитьРейтингПользователя</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="8ef9795d-9a9e-4013-a0f8-88c7efec4094">
+				<Properties>
+					<Name>ПолучитьРезультатыОпросов</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Получить результаты опросов</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/postopros/{Login}/{Guid}/{Vopros}/{Otvet}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="2f684c3a-8034-4332-8f19-d1d8168de621">
+						<Properties>
+							<Name>ПолучитьРезультатыОпросов</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Получить результаты опросов</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ПолучитьРезультатыОпросовПолучитьРезультатыОпросов</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>

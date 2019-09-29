@@ -28,8 +28,13 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>Конфигурация</Name>
-			<Synonym/>
+			<Name>backend</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Backend</v8:content>
+				</v8:item>
+			</Synonym>
 			<Comment/>
 			<NamePrefix/>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_14</ConfigurationExtensionCompatibilityMode>
@@ -40,7 +45,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version/>
+			<Version>1.0.2</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -116,7 +121,7 @@
 			</RequiredMobileApplicationPermissions>
 			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
 			<DefaultInterface/>
-			<DefaultStyle/>
+			<DefaultStyle>Style.cbr</DefaultStyle>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -137,18 +142,26 @@
 			<Subsystem>Опрос</Subsystem>
 			<Subsystem>Отчеты</Subsystem>
 			<Subsystem>НСИ</Subsystem>
+			<Style>cbr</Style>
+			<CommonModule>РаботаСHTMLиФорматированнымиДокументами</CommonModule>
 			<HTTPService>Сервер</HTTPService>
 			<Catalog>Инициатива</Catalog>
 			<Catalog>Вопросы</Catalog>
 			<Catalog>Пользователь</Catalog>
 			<Catalog>Ответы</Catalog>
+			<Catalog>ПроизвольныеФайлы</Catalog>
 			<Document>Опрос</Document>
 			<Enum>ЮрФизЛицо</Enum>
 			<Enum>ТипВопроса</Enum>
+			<Enum>ВидыДополнительнойИнформацииОбъектов</Enum>
+			<Report>СтатистикаОтветов</Report>
+			<Report>РейтингИнициатив</Report>
 			<DataProcessor>ВыгрузитьСписокИнициатив</DataProcessor>
 			<DataProcessor>Обработка1</DataProcessor>
+			<DataProcessor>Обработка2</DataProcessor>
 			<InformationRegister>РейтингИнициатив</InformationRegister>
 			<InformationRegister>ОтветыНаВопросы</InformationRegister>
+			<InformationRegister>РейтингПользователей</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
